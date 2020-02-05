@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Classes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body bgcolor="#007399">
+        <header>
+            <img src="assets/headerphoto.jpg " width = 100% height="360" alt="logo">
+                </header>
+        <nav>
+            <center>
+                <ul style="padding:0;">
+                <li class="main-navigation"><a href="index.html">Home</a></li>
+                <li class="main-navigation"><a href="allcourses.html">All Courses</a></li>
+                <li class="main-navigation"><a href="gallery.html">Gallery</a></li>
+                <li class="main-navigation"><a href="registration.html">Registration</a></li>
+                <li class="main-navigation"><a href="contactus.html">Contact us</a></li>
+                <li class="main-navigation"><a href="pretest.html">Pre Test</a></li>
+                <li class="main-navigation"><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </center>
+        </nav>
+        <br><br><br>
+        <center>
+        <section>    
+        <table style=" background-color: white;border: 5px solid #007399;">
+            <tr><td>    
+            <center><h1 style="color:#007399"> <u>Let's Dive In</u></h1>
+            <h2 style="color:#007399">Please fill out the quick form and we will be in touch with lightening speed.</h2></center>
+            <form name="contactform"method="GET" onsubmit="return validateForm()">
+            <table  align="center" style="width:40% box-shadow" cellspacing="10">
+                <tr>
+                    <td colspan="2" align="center"> <h1> Contact Details </h1></td>
+                </tr>
+                <tr>
+                    <td><b>Name :</b> </td>
+                    <td> <input type="text" name="name" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td> <b>Gender : </b></td>
+                    <td> <input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female"> Female</td>
+                </tr>
+                <tr>
+                    <td> <b>Course : </b></td>
+                    <td> <input type="checkbox" value="Angular">Angular <input type="checkbox"  value="Java"> Java <input type="checkbox"  value="Dot Net"> Dot Net </td>
+                </tr>
+                <tr> 
+                    <td><b>Country : </b></td>
+                    <td> <select name="Country"><option value="india">India</option> <option value="china">China</option> <option value="usa">USA</option></td>
+                </tr>
+                <tr>
+                    <td> <b>Favourite Colour : </b></td>
+                    <td> <input type="color" name="color"></td>
+                </tr>
+                <tr>
+                    <td> <b>Date of Birth : </b>  </td>
+                    <td>
+                        <input type="date" name="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"> <input type="submit" value="Register"></td>
+                </tr>
+                
+            </table>
+            </form>
+            </td>
+            </tr>
+            </table>
+        </section>
+        </center>
+        <footer> <br>&copy; <b>RTK Virtual Classes </b></footer>
+   
+    </body>
+</html>

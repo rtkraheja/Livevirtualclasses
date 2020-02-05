@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Classes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <style>
+            div{
+                padding: 20px;
+
+            }
+        </style>
+    </head>
+    <body background="assets/bgphoto.jpg">
+        <header>
+            <img src="assets/headerphoto.jpg " width = 100% height="360" alt="logo">
+        </header>
+        <center>
+        <nav>
+            
+                <ul>
+                <li class="main-navigation"><a href="index.html">Home</a></li>
+                <li class="main-navigation"><a href="allcourses.html">All Courses</a></li>
+                <li class="main-navigation"><a href="gallery.html">Gallery</a></li>
+                <li class="main-navigation"><a href="registration.html">Registration</a></li>
+                <li class="main-navigation"><a href="contactus.html">Contact us</a></li>
+                <li class="main-navigation"><a href="pretest.html">Pre Test</a></li>
+                <li class="main-navigation"><a href="quiz.html">Quiz</a></li>
+                </ul>
+            
+        </nav>
+    </center>
+        <div>
+                <div align="center" style="width:10%; float:right;">
+                    <table style="float:right">
+                        <tr>
+                            <td align="center"> <img src="assets/ad.jpg" width="100%" height="100%"><br><br><button onclick = "window.location.href ='https://www.google.co.in/aclk?sa=L&ai=DChcSEwiXyPzGgLXnAhXHGY8KHcSMAkAYABABGgJzYg&sig=AOD64_0_q3zhHBCd2Oc-_ktVFiUfblvcag&ctype=5&q=&ved=2ahUKEwiRlvXGgLXnAhUszzgGHWUZCoQQ9aACegQIDhA5&adurl=' ;">Buy Now</button></td>
+                        </tr><br><br><br><br><br>
+                        <tr>
+                            <td align="center"> <br><br><br><img src="assets/ad2.jpg" width="100%" height="100%"><br><br><button onclick = "window.location.href ='https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549/ref=sr_1_1?crid=FBT1118HKEKC&keywords=the+subtle+art+of+not+giving+a+fck&qid=1580814413&s=books&sprefix=the+s%2Cstripbooks%2C350&sr=1-1' ;">Buy Now</button></td>
+                        </tr>
+                    </table>
+                </div>    
+                <div style="height: 300px; width:22%; float: left;">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GSc9HnowRrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div align="center" style="width:58%; color:#ffffff; margin-left:25%; padding: 30px;">
+                       
+                    <table style=" background-color: white; width: 60%;border: 5px solid #007399;">
+                        <tr><td>    
+                        <center><h1 style="color:#007399"> <u>Pre Test</u></h1>
+                        <h2 style="color:#007399">Check your results below</h2></center>
+                        <form name="resultform"method="GET" onsubmit="return getResult()" action="#">
+                        <table  align="center" style="width:60%;" cellspacing="10">
+                            <tr>
+                                <td colspan="2" align="center"> <h1> <u> Student Marks </u></h1></td>
+                            </tr>
+                            <tr>
+                                <td><b>English : </b> </td>
+                                <td> <input type="text" id="txt1" placeholder="Enter marks"></td>
+                            </tr>
+                            <tr>
+                                <td> <b>GK :  </b></td>
+                                <td> <input type="text" id="txt2" placeholder="Enter marks"></td>
+                            </tr>
+                            <tr>
+                                <td> <b>Math : </b></td>
+                                <td> <input type="text" id="txt3" placeholder="Enter marks"></td> </td>
+                            </tr>
+                            <tr> 
+                                <td colspan="2" align="left"><h1> <u> Result :  </u></h1></td>
+                            </tr>
+                            <tr>
+                                <td><b>Total Marks : </b> </td>
+                                <td> <input type="text" placeholder="" id="total"></td>
+                            </tr>
+                            <tr>
+                                <td> <b>Percentage :  </b></td>
+                                <td> <input type="text" placeholder="" id="perc"></td>
+                            </tr>
+                            <tr>
+                                <td> <b>Highest Marks : </b></td>
+                                <td> <input type="text" placeholder="" id="high"></td> </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center"> <input type="submit" value="Result"></td>
+                            </tr>
+                            
+                        </table>
+                        </form>
+                        </td>
+                        </tr>
+                        </table>
+                </div>
+        </div> 
+        <footer> <br>&copy; <b>RTK Virtual Classes </b></footer>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Classes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <style>
+            div{
+                padding: 20px;
+
+            }
+        </style>
+    </head>
+    <body background="assets/bgphoto.jpg">
+        <header>
+            <img src="assets/headerphoto.jpg " width = 100% height="360" alt="logo">
+                </header>
+        <center>
+        <nav>
+            
+                <ul>
+                <li class="main-navigation"><a href="index.html">Home</a></li>
+                <li class="main-navigation"><a href="allcourses.html">All Courses</a></li>
+                <li class="main-navigation"><a href="gallery.html">Gallery</a></li>
+                <li class="main-navigation"><a href="registration.html">Registration</a></li>
+                <li class="main-navigation"><a href="contactus.html">Contact us</a></li>
+                <li class="main-navigation"><a href="pretest.html">Pre Test</a></li>
+                <li class="main-navigation"><a href="quiz.html">Quiz</a></li>
+                </ul>
+            
+        </nav>
+    </center>
+        <section>
+                <article align="center" style="width:10%; float:right;">
+                    <table style="float:right">
+                        <tr>
+                            <td align="center"> <img src="assets/ad.jpg" width="100%" height="100%"><br><br><button onclick = "window.location.href ='https://www.google.co.in/aclk?sa=L&ai=DChcSEwiXyPzGgLXnAhXHGY8KHcSMAkAYABABGgJzYg&sig=AOD64_0_q3zhHBCd2Oc-_ktVFiUfblvcag&ctype=5&q=&ved=2ahUKEwiRlvXGgLXnAhUszzgGHWUZCoQQ9aACegQIDhA5&adurl=' ;">Buy Now</button></td>
+                        </tr><br><br><br><br><br>
+                        <tr>
+                            <td align="center"> <br><br><br><img src="assets/ad2.jpg" width="100%" height="100%"><br><br><button onclick = "window.location.href ='https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549/ref=sr_1_1?crid=FBT1118HKEKC&keywords=the+subtle+art+of+not+giving+a+fck&qid=1580814413&s=books&sprefix=the+s%2Cstripbooks%2C350&sr=1-1' ;">Buy Now</button></td>
+                        </tr>
+                    </table>
+                </article>
+                >    
+                <article style="height: 300px; width:22%; float: left;">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GSc9HnowRrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+                <article style="width:58%; color:#ffffff; margin-left:25%; padding: 30px; border: 5px solid #007399;">
+                       <center> <h1 style="padding-bottom: 0;">Online Test</h1> <h4 style="padding-top: 0; font-size: smaller;">(2 Marks Each)</h4></center>
+                       <article class="content" >
+                            <div>
+                                <form name="quizz" style="line-height: 1.8;margin-left: 30%;" onsubmit="quizResult()">
+                                    Enter your username : <input type="text" id="txt1" placeholder="Enter Name" onfocus="colorme(id)" onblur="isEmpty(id)"><span id="display"></span> 
+                                    <br><br>
+                                    Enter your age  : <input type="text" id="txt2" placeholder="Enter Age"  onfocus="colorme(id)" onblur="coloroff(id)"><br><br>
+                                    Q1. HTML is used for : <br>
+                                    <input type="radio" name="r1" id="q1" value="A">Creating Static Page<br>
+                                    <input type="radio" name="r1" id="q1" value="B">Creating Dynamic Page<br>
+                                    <input type="radio" name="r1" id="q1" value="C">Both<br><br> 
+                                    Q2. Which of the following is not a reserved word in JavaScript? : <br>
+                                    <input type="radio" name="r2" id="q2" value="A">Interface<br>
+                                    <input type="radio" name="r2" id="q2" value="B">Throws<br>
+                                    <input type="radio" name="r2" id="q2" value="C">Program
+                                    <br><br>
+                                    Select your skills - <br>
+                                    <input type="checkbox" id="c1" value="A">Java<br>
+                                    <input type="checkbox" id="c2" value="B">Database<br>
+                                    <input type="checkbox" id="c3" value="C">Python<br>
+                                    <input type="checkbox" id="c4" value="D">Front-end<br><br>
+                                    <input type="submit" value="Result" style="margin-left: 40%; height: 30px;">
+                                </form> 
+                            </div>
+                       </article>
+                </article>
+        </section> 
+        <footer> <br>&copy; <b>RTK Virtual Classes </b></footer>
+    </body>
+</html>
